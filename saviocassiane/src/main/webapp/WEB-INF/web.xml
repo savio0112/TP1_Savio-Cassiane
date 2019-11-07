@@ -6,7 +6,7 @@
     </servlet>
     <servlet>
         <servlet-name>scServlet</servlet-name>
-        <servlet-class>saviotp1.scServlet</servlet-class>
+        <servlet-class>saviotp1.servlets.scServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>biro</servlet-name>

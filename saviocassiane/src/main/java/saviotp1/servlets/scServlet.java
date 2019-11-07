@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package saviotp1;
+package saviotp1.servlets;
 
 import java.io.IOException;
 import java.io.PrintWriter;
