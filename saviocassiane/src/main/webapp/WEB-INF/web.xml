@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>biro</servlet-name>
+        <servlet-class>biro.biro</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>scServlet</servlet-name>
+        <servlet-class>saviotp1.servlets.scServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>biro</servlet-name>
+        <url-pattern>/biro</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>scServlet</servlet-name>
+        <url-pattern>/scServlet</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
